@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      
+      "@/components/": [
+        "src/components/*"
+      ],
+
+      "@/components/svelte": [
+        "src/components/svelte"
+      ],
+
+      "@/components/react": [
+        "src/components/react"
+      ],
+
+      "@/icons": [
+        "src/icons/*"
+      ],
+      
+      "@/core": [
+        "src/core/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
